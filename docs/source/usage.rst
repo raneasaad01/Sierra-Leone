@@ -1,7 +1,7 @@
 Introduction 
 =====
 
-.. _installation:
+Sierra Leone
 
 Installation
 ------------
