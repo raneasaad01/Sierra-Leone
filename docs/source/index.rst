@@ -1,20 +1,15 @@
 The OSeMOSYS – SL model
 ===================================
 
-Sierra Leone  
-
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
-
-Contents
---------
-
 .. toctree::
+   :maxdepth: 2
+   :caption: Contents
 
-   Abbreviations
-   Introduction
+   00Abreviations
+   01Introduction
+   02EnergyModelFramework
+   03EnergyModelDatabase
+   04Scenarios
+   05PythonModules
+   99refs
+   999Annexes
