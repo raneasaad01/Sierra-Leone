@@ -6,7 +6,7 @@ Introduction
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+Sierra Leone:
 
 .. code-block:: console
 
