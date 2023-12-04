@@ -10,6 +10,11 @@ Welcome to Sierra Leone's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   00Abreviations
+   01Introduction
+   02EnergyModelFramework
+   03EnergyModelDatabase
+   04Scenarios
 
 
 Indices and tables
