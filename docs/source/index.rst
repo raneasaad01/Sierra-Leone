@@ -11,7 +11,6 @@ Contents
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
    00Abreviations
    01Introduction
    02EnergyModelFramework
