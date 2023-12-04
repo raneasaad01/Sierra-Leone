@@ -3,13 +3,18 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-The OSeMOSYS - SL Model RANEA
+The OSeMOSYS - SL Model
 ========================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
-
+   :caption: Contents
+   
+   00Abreviations
+   01Introduction
+   02EnergyModelFramework
+   03EnergyModelDatabase
+   04Scenarios
 
 
 Indices and tables
