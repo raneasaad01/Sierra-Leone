@@ -6,12 +6,15 @@
 The OSeMOSYS - SL Model
 ========================================
 
+
 Contents
 ========================================
+
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
-   00Abreviations
+   :caption: Contents
+
+   00Abbreviations
    01Introduction
 
 
