@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Energy Model Framework &mdash; Sierra Leone  documentation</title>
+  <title>2. Energy model: Framework &mdash; Sierra Leone  documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
 
@@ -21,6 +21,7 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="3. Energy model: Data inputs" href="03EnergyModelDatabase.html" />
     <link rel="prev" title="1. Introduction" href="01Introduction.html" /> 
 </head>
 
@@ -45,9 +46,23 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="00Abbreviations.html">Abreviations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="00Abbreviations.html">Abbreviations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="01Introduction.html">1. Introduction</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Energy Model Framework</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">2. Energy model: Framework</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#general-model-structure">2.1 General model structure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sets">2.2 Sets</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#year">2.2.1 Year</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#fuels">2.2.2 Fuels</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#technologies">2.2.3 Technologies</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#emissions">2.2.4 Emissions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#mode-of-operation">2.2.5 Mode of operation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#region">2.2.6 Region</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="03EnergyModelDatabase.html">3. Energy model: Data inputs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04Scenarios.html">4. Energy model: Scenario building</a></li>
 </ul>
 
         </div>
@@ -64,7 +79,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Energy Model Framework</li>
+      <li class="breadcrumb-item active">2. Energy model: Framework</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/02EnergyModelFramework.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -75,7 +90,36 @@
            <div itemprop="articleBody">
              
   <section id="energy-model-framework">
-<h1>Energy Model Framework<a class="headerlink" href="#energy-model-framework" title="Link to this heading"></a></h1>
+<h1>2. Energy model: Framework<a class="headerlink" href="#energy-model-framework" title="Link to this heading"></a></h1>
+<p>This documentation has been created in order to provide an overview of OSeMOSYS-CR. Therefore, it presents the model structure, and gives a synthesis of the key assumptions of the model, regarding the numerical inputs used for the sets, parameters, and scenario building. First, in this section, we give an insight to the general framework of the model.</p>
+<section id="general-model-structure">
+<h2>2.1 General model structure<a class="headerlink" href="#general-model-structure" title="Link to this heading"></a></h2>
+<p>The Sierra Leonean energy sector is entirely modelled in OSeMOSYS.</p>
+</section>
+<section id="sets">
+<h2>2.2 Sets<a class="headerlink" href="#sets" title="Link to this heading"></a></h2>
+<p>The sets are responsible for defining the structure of the model (i.e. temporal space, geographic space, elements of the system, etc.). In OSeMOSYS, the group of sets include: years, fuels, technologies, emissions and modes of operation. As is going to be further explained, the sets are characterised through parameters. These subsections present the sets that compose the current version of OSeMOSYS-SL.</p>
+<section id="year">
+<h3>2.2.1 Year<a class="headerlink" href="#year" title="Link to this heading"></a></h3>
+<p>This corresponds to the period of analysis. For OSeMOSYS-SL it is from 2015 to 2050. However, the data from 2015 to 2023 is set according to historical information.</p>
+</section>
+<section id="fuels">
+<h3>2.2.2 Fuels<a class="headerlink" href="#fuels" title="Link to this heading"></a></h3>
+</section>
+<section id="technologies">
+<h3>2.2.3 Technologies<a class="headerlink" href="#technologies" title="Link to this heading"></a></h3>
+</section>
+<section id="emissions">
+<h3>2.2.4 Emissions<a class="headerlink" href="#emissions" title="Link to this heading"></a></h3>
+</section>
+<section id="mode-of-operation">
+<h3>2.2.5 Mode of operation<a class="headerlink" href="#mode-of-operation" title="Link to this heading"></a></h3>
+</section>
+<section id="region">
+<h3>2.2.6 Region<a class="headerlink" href="#region" title="Link to this heading"></a></h3>
+<p>The model has a nationwide scope, therefore it only has one region: Sierra Leone (SL).</p>
+</section>
+</section>
 </section>
 
 
@@ -83,6 +127,7 @@
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="01Introduction.html" class="btn btn-neutral float-left" title="1. Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="03EnergyModelDatabase.html" class="btn btn-neutral float-right" title="3. Energy model: Data inputs" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
